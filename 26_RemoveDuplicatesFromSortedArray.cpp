@@ -11,8 +11,6 @@ public:
         int k = 1, x = 0, y = 1;
         while (y != nums.size()) {
             if (nums[x] != nums[y]) {
-                // cout << x << " " << y <<endl;
-                cout << nums[x] << ", "<< nums[y] << endl;
                 k++;
                 nums[++x] = nums[y];
             }
